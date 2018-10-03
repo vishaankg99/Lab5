@@ -8,9 +8,14 @@
  * @see <a href="https://cs125.cs.illinois.edu/lab/5/">Lab 5 Description</a>
  */
 public class Bank {
+    /**
+     * test.
+     */
+    private String bankName;
 
-    public String bankName;
-
+    /**
+     * test.
+     */
     public Bank() {
         bankName = "Illini Bank";
     }
@@ -79,7 +84,6 @@ public class Bank {
          */
     }
 
-    public static int totalAccounts = 0;
     /**
      * Uses static variable to get number of bank accounts opened.
      *
